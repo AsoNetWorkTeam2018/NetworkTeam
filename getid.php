@@ -12,7 +12,7 @@ else if($_SERVER['REQUEST_METHOD']=='GET')
 echo "get<br />";
 }
 #echo "$input1<br />";
-$log="123";
+$log="1243";
 $sucs="FALSE";
 $ary=array('id'=>$input1,'pass'=>$input2);
 $sql=new mysqli("localhost","root","daichi117","testdb");
