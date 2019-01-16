@@ -1,3 +1,11 @@
+<?php
+if($_SERVER['REQUEST_METHOD']=='GET')
+{
+echo "nnn <br />";
+}
+
+ ?>
+
 <html>
 <h1>仮フォーラム</h1>
 
