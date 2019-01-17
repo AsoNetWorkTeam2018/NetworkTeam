@@ -3,9 +3,8 @@ if($_SERVER['REQUEST_METHOD']=='GET')
 {
 echo "nnn <br />";
 }
-
- ?>
-
+$nani=$_POST['text'];
+?>
 <html>
 <h1>仮フォーラム</h1>
 
@@ -16,13 +15,12 @@ echo "nnn <br />";
 <body>
 <form method="get" action="getid.php">
 
-<p>id: <INPUT type="text" name="input1" maxlength="5"></p>
+ <p>id: <INPUT type="text" name="input1" maxlength="5"></p>
 <p>pass:<INPUT type="text" name="input2" maxlength="4"></p>
 
 <p><INPUT type="submit"></p>
 </form>
 </body>
-<p><?php echo "login"; ?></p>
 </html>
 
 
