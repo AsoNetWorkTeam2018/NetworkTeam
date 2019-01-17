@@ -1,7 +1,7 @@
 <?php
 if($_SERVER['REQUEST_METHOD']=='GET')
 {
-echo "nnn <br />";
+echo "nnnn <br />";
 }
 $nani=$_POST["text"];
 ?>
