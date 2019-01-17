@@ -3,7 +3,7 @@ if($_SERVER['REQUEST_METHOD']=='GET')
 {
 echo "nnn <br />";
 }
-$nani=$_POST['text'];
+$nani=$_POST["text"];
 ?>
 <html>
 <h1>仮フォーラム</h1>
